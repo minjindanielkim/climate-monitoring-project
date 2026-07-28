@@ -14,13 +14,6 @@ npm run dev
 
 Then open the printed URL (default http://localhost:5173).
 
-## Add the map image
-
-Save your campus screenshot as **`public/map.png`**. Until you do, markers are
-still placed by lat/lon over a placeholder background.
-
-## Line up the markers (calibration)
-
 The image is georeferenced by the lat/lon of its four edges, set in
 [`src/geo.ts`](src/geo.ts) (`MAP_BOUNDS`). Current values are estimated from the
 OpenStreetMap screenshot and may need a nudge for your exact crop:
